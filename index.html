@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuda</title>
+    <link rel="stylesheet" href="https://use.typekit.net/pwl8odd.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="desktop-header">
+      <div class="header-container">
+        <div class="header-left">
+          <a exact="true" class="kuda-logo" href="/en-ng/" aria-current="page"
+            ><svg width="99" height="22" viewBox="0 0 99 22" fill="none">
+              <path
+                d="M58.4144 6.81538V21.764H54.0773V19.5807C53.6053 20.3675 52.9857 20.9674 52.2186 21.3804C51.4515 21.7935 50.586 22 49.6222 22C47.7537 22 46.3572 21.4788 45.4327 20.4363C44.5083 19.3938 44.046 17.8203 44.046 15.7157V6.81538H48.5011V15.8042C48.5011 17.6138 49.278 18.5186 50.8319 18.5186C51.7563 18.5186 52.5038 18.2038 53.0742 17.5744C53.6446 16.945 53.9298 16.1189 53.9298 15.0961V6.81538H58.4144ZM75.4086 0V21.764H71.0125V19.5512C70.5601 20.3183 69.9209 20.9182 69.0947 21.3509C68.2686 21.7836 67.3344 22 66.2919 22C65.0134 22 63.8726 21.6755 62.8695 21.0165C61.8663 20.3576 61.0894 19.4332 60.5288 18.2432C59.9682 17.0532 59.6929 15.696 59.6929 14.1618C59.6929 12.6276 59.9682 11.2803 60.5288 10.11C61.0894 8.93965 61.8663 8.03487 62.8596 7.39562C63.8529 6.75637 64.9937 6.44166 66.2919 6.44166C67.295 6.44166 68.2096 6.65802 69.0357 7.07108C69.8619 7.49396 70.5011 8.07421 70.9535 8.82164V0H75.4086ZM70.1274 17.4761C70.7175 16.7188 71.0125 15.637 71.0125 14.2208C71.0125 12.8243 70.7175 11.7523 70.1175 10.9951C69.5176 10.2378 68.6817 9.8641 67.5999 9.8641C66.4984 9.8641 65.6428 10.2378 65.0331 10.9852C64.4233 11.7327 64.1184 12.7948 64.1184 14.1717C64.1184 15.5878 64.4233 16.6795 65.0331 17.4564C65.6428 18.2333 66.4984 18.6169 67.5999 18.6169C68.7014 18.6071 69.5373 18.2333 70.1274 17.4761ZM92.4126 6.81538V21.764H88.0165V19.5512C87.5641 20.3183 86.9249 20.9182 86.0988 21.3509C85.2727 21.7836 84.3384 22 83.2959 22C81.9977 22 80.8569 21.6853 79.8636 21.0559C78.8703 20.4265 78.0934 19.5315 77.5328 18.3612C76.9723 17.1909 76.6969 15.8435 76.6969 14.3093C76.6969 12.7751 76.9723 11.4081 77.5328 10.2083C78.0934 9.00849 78.8703 8.08404 79.8735 7.42512C80.8766 6.7662 82.0174 6.44166 83.2959 6.44166C84.3384 6.44166 85.2727 6.66786 86.0988 7.12025C86.9249 7.57264 87.5641 8.18239 88.0165 8.94949V6.81538H92.4126ZM87.1314 17.4859C87.7215 16.7385 88.0165 15.6567 88.0165 14.2405C88.0165 12.8243 87.7215 11.7425 87.1314 10.9852C86.5413 10.228 85.6956 9.85427 84.5941 9.85427C83.4926 9.85427 82.637 10.2477 82.0272 11.0344C81.4175 11.8212 81.1126 12.9128 81.1126 14.3093C81.1126 15.7059 81.4077 16.768 82.0076 17.5056C82.6075 18.2432 83.4631 18.6071 84.5842 18.6071C85.6956 18.6071 86.5413 18.2333 87.1314 17.4859ZM43.1511 21.9803H37.624L31.6839 15.2043V21.9803H27.1797V0H31.6839V13.3456L37.3585 6.86455H42.7675L36.3455 14.1225L43.1511 21.9803Z"
+                fill="#40196D"
+              ></path>
+              <path
+                d="M14.8207 21.9803L6.17613 12.0277L10.8967 21.9803H7.62181L2.80286 11.831L4.80912 21.9803H2.79303L0.786768 11.8114V21.9803H0V0H0.786768V10.9656L2.82253 0H4.82879L2.78319 11.0148L7.70049 0H10.9361L6.04828 10.9754L14.9289 0H20.0134L10.8181 11.3491L20.0527 21.9803H14.8207Z"
+                fill="#40196D"
+              ></path>
+              <path
+                d="M96.146 21.7447C97.493 21.7447 98.585 20.6527 98.585 19.3057C98.585 17.9587 97.493 16.8667 96.146 16.8667C94.799 16.8667 93.707 17.9587 93.707 19.3057C93.707 20.6527 94.799 21.7447 96.146 21.7447Z"
+                fill="#40196D"
+              ></path>
+            </svg>
+          </a>
+          <ul role="navigation" class="navigation">
+            <li>
+              <p>
+                Personal<span
+                  ><svg width="9" height="6" viewBox="0 0 9 6" fill="none">
+                    <path d="M4.5 6L0 0H9L4.5 6Z" fill="#40196D"></path>
+                  </svg>
+                </span>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Business<span
+                  ><svg width="9" height="6" viewBox="0 0 9 6" fill="none">
+                    <path d="M4.5 6L0 0H9L4.5 6Z" fill="#40196D"></path>
+                  </svg>
+                </span>
+              </p>
+            </li>
+
+            <li class="menu-item-wrapper">
+              <div id="company-menu" class="menu-item">
+                <p>
+                  Company
+                  <span>
+                    <svg width="9" height="6" viewBox="0 0 9 6" fill="none">
+                      <path d="M4.5 6L0 0H9L4.5 6Z" fill="#40196D"></path>
+                    </svg>
+                  </span>
+                </p>
+              </div>
+              <div class="dropdown-content dropdown-content-company">
+                <ul class="kuda-dropdown--menu">
+                  <li><p class="menu-link">Blog</p></li>
+                  <li>
+                    <a class="menu-link" href="/press/"
+                      ><span class="nav-link-text">Press</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/careers/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="menu-link"
+                      ><span class="nav-link-text">Join Our Team</span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="menu-link" href="/about/"
+                      ><span class="nav-link-text">About Us</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="menu-item-wrapper">
+              <div id="help-menu" class="menu-item">
+                <p>
+                  Help
+                  <span>
+                    <svg width="9" height="6" viewBox="0 0 9 6" fill="none">
+                      <path d="M4.5 6L0 0H9L4.5 6Z" fill="#40196D"></path>
+                    </svg>
+                  </span>
+                </p>
+              </div>
+              <div class="dropdown-content dropdown-content-help">
+                <ul class="kuda-dropdown--menu">
+                  <li>
+                    <a
+                      href="https://help.kuda.com/en/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="menu-link"
+                      ><span class="nav-link-text">Get Help</span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="menu-link" href="/scam-awareness/"
+                      ><span class="nav-link-text">Scam Awareness</span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="menu-link" href="/en-ng/legal/faq/"
+                      ><span class="nav-link-text">FAQs</span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="menu-link" href="/security/"
+                      ><span class="nav-link-text">Security</span></a
+                    >
+                  </li>
+                  <li>
+                    <a class="menu-link" href="/contact/"
+                      ><span class="nav-link-text">Contact Us</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://selfhelp.kuda.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="menu-link"
+                      ><span class="nav-link-text">Self Help</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown-overlay" id="dropdown-overlay"></div>
+        <div class="header-right">
+          <a
+            href="https://app.kuda.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="sign-in"
+            >Sign In</a
+          >
+          <a class="join-kuda" href="/joinKuda/">Join Kuda</a>
+          <div class="flag">
+            <img src="/images/flag.svg" alt="nigerian flag" />
+          </div>
+          <div class="mobile-toggle">
+            <div class="kuda-hamburger">
+              <div class="kuda-hamburger--inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+      <div class="mobile-nav">
+        <div class="header-left">
+          <a exact="true" class="kuda-logo" href="/en-ng/" aria-current="page"
+            ><svg width="99" height="22" viewBox="0 0 99 22" fill="none">
+              <path
+                d="M58.4144 6.81538V21.764H54.0773V19.5807C53.6053 20.3675 52.9857 20.9674 52.2186 21.3804C51.4515 21.7935 50.586 22 49.6222 22C47.7537 22 46.3572 21.4788 45.4327 20.4363C44.5083 19.3938 44.046 17.8203 44.046 15.7157V6.81538H48.5011V15.8042C48.5011 17.6138 49.278 18.5186 50.8319 18.5186C51.7563 18.5186 52.5038 18.2038 53.0742 17.5744C53.6446 16.945 53.9298 16.1189 53.9298 15.0961V6.81538H58.4144ZM75.4086 0V21.764H71.0125V19.5512C70.5601 20.3183 69.9209 20.9182 69.0947 21.3509C68.2686 21.7836 67.3344 22 66.2919 22C65.0134 22 63.8726 21.6755 62.8695 21.0165C61.8663 20.3576 61.0894 19.4332 60.5288 18.2432C59.9682 17.0532 59.6929 15.696 59.6929 14.1618C59.6929 12.6276 59.9682 11.2803 60.5288 10.11C61.0894 8.93965 61.8663 8.03487 62.8596 7.39562C63.8529 6.75637 64.9937 6.44166 66.2919 6.44166C67.295 6.44166 68.2096 6.65802 69.0357 7.07108C69.8619 7.49396 70.5011 8.07421 70.9535 8.82164V0H75.4086ZM70.1274 17.4761C70.7175 16.7188 71.0125 15.637 71.0125 14.2208C71.0125 12.8243 70.7175 11.7523 70.1175 10.9951C69.5176 10.2378 68.6817 9.8641 67.5999 9.8641C66.4984 9.8641 65.6428 10.2378 65.0331 10.9852C64.4233 11.7327 64.1184 12.7948 64.1184 14.1717C64.1184 15.5878 64.4233 16.6795 65.0331 17.4564C65.6428 18.2333 66.4984 18.6169 67.5999 18.6169C68.7014 18.6071 69.5373 18.2333 70.1274 17.4761ZM92.4126 6.81538V21.764H88.0165V19.5512C87.5641 20.3183 86.9249 20.9182 86.0988 21.3509C85.2727 21.7836 84.3384 22 83.2959 22C81.9977 22 80.8569 21.6853 79.8636 21.0559C78.8703 20.4265 78.0934 19.5315 77.5328 18.3612C76.9723 17.1909 76.6969 15.8435 76.6969 14.3093C76.6969 12.7751 76.9723 11.4081 77.5328 10.2083C78.0934 9.00849 78.8703 8.08404 79.8735 7.42512C80.8766 6.7662 82.0174 6.44166 83.2959 6.44166C84.3384 6.44166 85.2727 6.66786 86.0988 7.12025C86.9249 7.57264 87.5641 8.18239 88.0165 8.94949V6.81538H92.4126ZM87.1314 17.4859C87.7215 16.7385 88.0165 15.6567 88.0165 14.2405C88.0165 12.8243 87.7215 11.7425 87.1314 10.9852C86.5413 10.228 85.6956 9.85427 84.5941 9.85427C83.4926 9.85427 82.637 10.2477 82.0272 11.0344C81.4175 11.8212 81.1126 12.9128 81.1126 14.3093C81.1126 15.7059 81.4077 16.768 82.0076 17.5056C82.6075 18.2432 83.4631 18.6071 84.5842 18.6071C85.6956 18.6071 86.5413 18.2333 87.1314 17.4859ZM43.1511 21.9803H37.624L31.6839 15.2043V21.9803H27.1797V0H31.6839V13.3456L37.3585 6.86455H42.7675L36.3455 14.1225L43.1511 21.9803Z"
+                fill="#40196D"
+              ></path>
+              <path
+                d="M14.8207 21.9803L6.17613 12.0277L10.8967 21.9803H7.62181L2.80286 11.831L4.80912 21.9803H2.79303L0.786768 11.8114V21.9803H0V0H0.786768V10.9656L2.82253 0H4.82879L2.78319 11.0148L7.70049 0H10.9361L6.04828 10.9754L14.9289 0H20.0134L10.8181 11.3491L20.0527 21.9803H14.8207Z"
+                fill="#40196D"
+              ></path>
+              <path
+                d="M96.146 21.7447C97.493 21.7447 98.585 20.6527 98.585 19.3057C98.585 17.9587 97.493 16.8667 96.146 16.8667C94.799 16.8667 93.707 17.9587 93.707 19.3057C93.707 20.6527 94.799 21.7447 96.146 21.7447Z"
+                fill="#40196D"
+              ></path>
+            </svg>
+          </a>
+          <span class="close-toggle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 50"
+              width="25px"
+              height="25px"
+              fill="#40196D"
+            >
+              <path
+                d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="nav-container">
+          <div class="menu-actions">
+            <a class="join-kuda-mobile" href="/joinKuda/">Join Kuda</a>
+            <a
+              target="_blank"
+              href="https://app.kuda.com"
+              class="sign-kuda-mobile"
+              >Sign In</a
+            >
+          </div>
+          <ul role="navigation" class="mobile-navigation">
+            <li>
+              <p>
+                Personal<span
+                  ><svg width="16" height="17" viewBox="0 0 16 17" fill="none">
+                    <path
+                      d="M11 8.50004L6.5 3.88124L6.5 13.1188L11 8.50004Z"
+                      fill="#40196D"
+                    ></path>
+                  </svg>
+                </span>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Business<span
+                  ><svg width="16" height="17" viewBox="0 0 16 17" fill="none">
+                    <path
+                      d="M11 8.50004L6.5 3.88124L6.5 13.1188L11 8.50004Z"
+                      fill="#40196D"
+                    ></path>
+                  </svg>
+                </span>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Company<span
+                  ><svg width="16" height="17" viewBox="0 0 16 17" fill="none">
+                    <path
+                      d="M11 8.50004L6.5 3.88124L6.5 13.1188L11 8.50004Z"
+                      fill="#40196D"
+                    ></path>
+                  </svg>
+                </span>
+              </p>
+            </li>
+
+            <li>
+              <a
+                href="https://developer.kuda.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><p>Developers</p></a
+              >
+            </li>
+            <li>
+              <a href="/contact/"><p>Contact Us</p></a>
+            </li>
+
+            <li>
+              <p>
+                Help<span
+                  ><svg width="16" height="17" viewBox="0 0 16 17" fill="none">
+                    <path
+                      d="M11 8.50004L6.5 3.88124L6.5 13.1188L11 8.50004Z"
+                      fill="#40196D"
+                    ></path>
+                  </svg>
+                </span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>The money app for Africans.</h1>
+          <p>
+            Make free transfers, enjoy cashless payment options and earn
+            interest on your savings with Kuda.
+          </p>
+          <div class="app-links">
+            <a href="#"><img src="/images/app-store.svg" alt="App Store" /></a>
+            <a href="#"><img src="/images/google.svg" alt="Google Play" /></a>
+          </div>
+          <p class="license">
+            <img src="/images/license.svg" alt="" />
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="/images/side-image.svg" alt="Kuda App" />
+        </div>
+      </section>
+
+      <!-- New Section with Cards -->
+      <section class="features">
+        <div class="container">
+          <div class="card">
+            <div class="icon">
+              <img src="/images/icon1.svg" alt="Icon 1" />
+            </div>
+            <p>
+              Order a Kuda Visa card on the app with pickup and delivery
+              options.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="/images/icon2.svg" alt="Icon 2" />
+            </div>
+            <p>Enjoy cashless payment options online and offline.</p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="/images/icon3.svg" alt="Icon 3" />
+            </div>
+            <p>Pay your essential bills and buy gift cards easily.</p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="/images/icon4.svg" alt="Icon 4" />
+            </div>
+            <p>Get 25 free transfers to Nigerian banks every month.</p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="/images/icon5.svg" alt="Icon 5" />
+            </div>
+            <p>Save money automatically any time you spend.</p>
+          </div>
+        </div>
+      </section>
+      <!-- information section -->
+      <section class="info-section">
+        <div class="container">
+          <div class="info-text">
+            <h2>
+              Your phone + <br />our app + <br />a debit card = <br />a simpler
+              life.
+            </h2>
+            <p>
+              We designed a money app for your lifestyle, and you can get a
+              debit card to go with it. That's all you need to make the right
+              money moves.
+            </p>
+            <a href="#" class="cta-link">Open An Account in Minutes </a
+            ><img src="/images/front-angle.svg" alt="" />
+          </div>
+          <div class="info-image">
+            <img src="/images/info-image.svg" alt="Kuda App Illustration" />
+          </div>
+        </div>
+      </section>
+      <section class="bills">
+        <div class="container">
+          <div class="bills-image">
+            <img src="/images/bills.svg" alt="Illustration" />
+          </div>
+          <div class="bills-text">
+            <h2>It's your money, we just help you manage it.</h2>
+            <p>
+              Save it, spend it, send it. It's up to you. Whatever you choose to
+              do with your money, we'll make sure it's done better and free of
+              charge. We take responsibility for that.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- spend-save structure -->
+      <section class="spend-save">
+        <div class="container">
+          <div class="spend-save-text">
+            <h2>Save money as you spend it, seriously.</h2>
+            <p>
+              You can’t avoid spending. That’s how you pay for your needs. But
+              we can help you put money away every time you pay for something.
+              Just set a percentage to save and watch your money grow.
+            </p>
+            <a href="#" class="cta-link">See all our Savings </a>
+          </div>
+          <div class="spend-save-image">
+            <img src="/images/spend-save.svg" alt="Illustration" />
+          </div>
+        </div>
+      </section>
+      <!-- block card -->
+      <section class="block-card">
+        <div class="container">
+          <div class="block-card-image">
+            <img src="/images/block-card.svg" alt="Illustration" />
+          </div>
+          <div class="block-card-text">
+            <h2>Turn off access, turn on safety.</h2>
+            <p>
+              Life happens. Milk spills. Debit cards go missing. If that ever
+              happens, you can block your missing card on the app so no one can
+              use it. We’d like to see them try.
+            </p>
+            <a href="#" class="cta-link">Learn more about Cards </a
+            ><img src="/images/front-angle.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- hello section -->
+      <section class="hello">
+        <div class="container">
+          <div class="hello-text">
+            <h2>We’re always happy to help you.</h2>
+            <p>
+              You can chat with us on the app, slide into our DMs, tweet, leave
+              an Instagram comment, send an email or call. However you choose to
+              reach out, there’ll always be a friendly person there to make your
+              life easy.
+            </p>
+            <a href="#" class="cta-link">Get Help </a
+            ><img src="/images/front-angle.svg" alt="" />
+          </div>
+          <div class="hello-image">
+            <img src="/images/hello.svg" alt="Illustration" />
+          </div>
+        </div>
+      </section>
+      <section class="fees">
+        <div class="container">
+          <div class="fees-image">
+            <img src="/images/fees.svg" alt="Illustration" />
+          </div>
+          <div class="fees-text">
+            <h2>Fees as clear as glass.</h2>
+            <p>
+              We’re serious about free banking, and we will never, ever charge
+              you for anything without your consent.
+            </p>
+            <a href="#" class="all-fees">See all our fees </a
+            ><img src="/images/front-angle.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- testimonials -->
+    <section class="testimonials-section">
+      <h2>Don't just take our word for it</h2>
+      <div class="marquee">
+        <div class="marquee-content">
+          <div class="testimonial">
+            <p>
+              Just joined the best Digital Bank in Nigeria. I have no complaints
+              whatsoever since I started using Kuda. <br /><br /><br /><br />
+            </p>
+            <div class="author">
+              <img src="/images/tomisi.svg" alt="Tomisinv" />
+              <span>Tomisinv</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>
+              Never thought an app would stylishly become my everyday way to
+              bank and have access to physical cash. @kudabank is sleek.
+              <br /><br /><br />
+            </p>
+            <div class="author">
+              <img src="/images/babajide.svg" alt="Babajide Duroshola" />
+              <span>Babajide Duroshola</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>
+              This is the best banking app! I'm enjoying seamless banking plus
+              the free transfers to other banks is a thing of joy. This is what
+              I call freedom. I've made Kuda my main bank account and I'm gonna
+              refer all my friends!
+            </p>
+            <div class="author">
+              <img src="/images/realson.svg" alt="@RealSOK_" />
+              <span>@RealSOK_</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>
+              I like the fact that Kuda Microfinance Bank doesn't only run a no
+              fee policy and 25 free transfers in a month but you can only
+              create a budget plan to control your spending pattern. Really
+              really nice!!
+            </p>
+            <div class="author">
+              <img src="/images/oyekan.svg" alt="Adebambo Oyekan" />
+              <span>Adebambo Oyekan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="companies">
+      <div class="com-icon">
+        <img src="/images/com-con1.svg" alt="" />
+      </div>
+      <div class="com-icon">
+        <img src="/images/com-con2.svg" alt="" />
+      </div>
+      <div class="com-icon">
+        <img src="/images/com-con3.svg" alt="" />
+      </div>
+      <div class="com-icon">
+        <img src="/images/com-con4.svg" alt="" />
+      </div>
+      <div class="com-icon">
+        <img src="/images/com-con5.svg" alt="" />
+      </div>
+      <div class="com-icon">
+        <img src="/images/com-con6.svg" alt="" />
+      </div>
+    </div>
+    <div class="partners">
+      <h2>Our Partners</h2>
+      <div>
+        <div class="partner-icon">
+          <a href="#"><img src="/images/partner1.svg" alt="" /></a>
+        </div>
+        <div class="partner-icon">
+          <a href="#"><img src="/images/partner2.svg" alt="" /></a>
+        </div>
+        <div class="partner-icon">
+          <a href="#"><img src="/images/partner3.svg" alt="" /></a>
+        </div>
+        <div class="partner-icon">
+          <a href="#"><img src="/images/partner4.svg" alt="" /></a>
+        </div>
+        <div class="partner-icon">
+          <a href="#"><img src="/images/partner5.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- comparison table -->
+    <div class="comparison-section">
+      <h2>Choose the freedom you need.</h2>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Other Banks</th>
+            <th>Kuda</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Transfer Fee</td>
+            <td>
+              <img src="images/minus.svg" alt="circle" /> Up to ₦50 plus V.A.T.
+            </td>
+            <td>
+              <img src="images/check.svg" alt="check" /> 25 free transfers every
+              month
+            </td>
+          </tr>
+          <tr>
+            <td>Card Delivery</td>
+            <td>
+              <img src="images/minus.svg" alt="circle" />
+              <img src="/images/emoji.svg" alt="emoji" />
+            </td>
+            <td><img src="images/check.svg" alt="check" /> Yes</td>
+          </tr>
+          <tr>
+            <td>Card Maintenance Fee</td>
+            <td>
+              <img src="images/minus.svg" alt="circle" /> Up to ₦50 per quarter
+            </td>
+            <td><img src="images/check.svg" alt="check" /> No</td>
+          </tr>
+          <tr>
+            <td>Alerts</td>
+            <td>
+              <img src="images/minus.svg" alt="circle" /> Charge for SMS alerts
+            </td>
+            <td>
+              <img src="images/check.svg" alt="check" /> Free instant
+              notifications
+            </td>
+          </tr>
+          <tr>
+            <td>Annual Interest</td>
+            <td><img src="images/minus.svg" alt="circle" /> 4%</td>
+            <td><img src="images/check.svg" alt="check" /> Up to 15%</td>
+          </tr>
+          <tr>
+            <td>Bill Payment Fee</td>
+            <td>
+              <img src="images/minus.svg" alt="circle" /> Up to ₦100 per bill
+            </td>
+            <td><img src="/images/check.svg" alt="check" /> No</td>
+          </tr>
+          <tr>
+            <td>Instant Reversals</td>
+            <td>
+              <img src="images/minus.svg" alt="circle" />
+              <img src="/images/emoji1.svg" alt="emoji" />
+            </td>
+            <td><img src="images/check.svg" alt="check" /> Yes</td>
+          </tr>
+          <tr>
+            <td>Maintenance</td>
+            <td><img src="images/minus.svg" alt="circle" /> Yes</td>
+            <td><img src="images/check.svg" alt="check" /> No</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- more for you section -->
+    <div class="more-for-you">
+      <h2>More for you</h2>
+      <div class="card-container">
+        <div class="card-2">
+          <div class="card-icon">
+            <img src="/images/business.svg" alt="Business Icon" />
+          </div>
+          <h3>Kuda Business</h3>
+          <p>
+            Grow your business with our all-in-one business manager. Get a POS,
+            bulk transfers, payroll and more.
+          </p>
+          <a href="#">Learn more &gt;</a>
+        </div>
+        <div class="card-2">
+          <div class="card-icon">
+            <img src="/images/transfer.svg" alt="Transfer Icon" />
+          </div>
+          <h3>Transfer & Spend</h3>
+          <p>
+            Send money for free to any Nigerian account with 25 free transfers
+            every <br />month.
+          </p>
+          <a href="#">Learn more &gt;</a>
+        </div>
+        <div class="card-2">
+          <div class="card-icon">
+            <img src="/images/loans.svg" alt="Loans Icon" />
+          </div>
+          <h3>Loans</h3>
+          <p>
+            Get up to ₦150,000 in your Kuda account easily and repay in
+            convenient<br />
+            instalments.
+          </p>
+          <a href="#">Learn more &gt;</a>
+        </div>
+      </div>
+    </div>
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2 class="cta-title">The money app for Africans.</h2>
+        <p class="cta-subtitle">
+          Save, spend, send and invest money across borders.
+        </p>
+        <a href="#" class="cta-button">Join Kuda</a>
+      </div>
+      <div class="cta-image">
+        <img src="/images/btm-card.svg" alt="Kuda App" />
+      </div>
+    </section>
+    <hr class="footer-divide" />
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <img src="/images/top-icon.svg" alt="Kuda Logo" />
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Personal</h3>
+          <ul>
+            <li><a href="#">Discover Personal</a></li>
+            <li><a href="#">Transfer & Spend</a></li>
+            <li><a href="#">Save</a></li>
+            <li><a href="#">Investments</a></li>
+            <li><a href="#">Kuda card</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Business</h3>
+          <ul>
+            <li><a href="#">Discover Business</a></li>
+            <li><a href="#">Business Registration</a></li>
+            <li><a href="#">softPOS</a></li>
+            <li><a href="#">Invoicing</a></li>
+            <li><a href="#">Salary Loan</a></li>
+            <li><a href="#">Business API</a></li>
+            <li><a href="#">Join Kuda Business</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Join Our Team</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="#">Get Help</a></li>
+            <li><a href="#">Scam Awareness</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Self Help</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Transparency</h3>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Information Security Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Whistleblowing Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-app-links">
+          <a href="#"
+            ><img src="/images/app-store.svg" style="height: 40px"
+          /></a>
+          <a href="#"
+            ><img
+              src="/images/google.svg"
+              alt="Google Play"
+              style="height: 40px"
+          /></a>
+          <a href="#"
+            ><img src="/images/webapp.svg" alt="Web App" style="width: 135px"
+          /></a>
+        </div>
+        <p class="footer-note">Products may vary by country or market.</p>
+      </div>
+    </footer>
+    <div class="foot">
+      <div class="footer-container">
+        <div class="contact">
+          <h3>Contact</h3>
+          <a href="mailto:help@kuda.com">help@kuda.com</a>
+          <div class="social-icons">
+            <a href="#"><img src="/images/x.png" alt="X" /></a>
+            <a href="#"><img src="/images/ig.png" alt="IG" /></a>
+            <a href="#"><img src="/images/fb.png" alt="FB" /></a>
+            <a href="#"><img src="images/yt.png" alt="YT" /></a>
+            <a href="#"><img src="images/m.png" alt="M" /></a>
+            <a href="#"><img src="images/li.png" alt="LI" /></a>
+          </div>
+        </div>
+        <div class="addresses">
+          <div class="address">
+            <h3>Lagos</h3>
+            <p>
+              1-11 Commercial Avenue,<br />
+              Yaba, Lagos,<br />
+              Nigeria
+            </p>
+          </div>
+          <div class="address">
+            <h3>London</h3>
+            <p>
+              5 New Street Square,<br />
+              London, EC4A 3TW,<br />
+              United Kingdom
+            </p>
+          </div>
+          <div class="address">
+            <h3>Cape Town</h3>
+            <p>
+              146 Campground Road,<br />
+              Snakepit Building, Level 4,<br />
+              Newlands, Cape Town
+            </p>
+          </div>
+          <div class="address">
+            <h3>Canada</h3>
+            <p>
+              3080 Yonge Street,<br />
+              Suite 6060, Toronto,<br />
+              Ontario M4N 3N1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          © 2024 Kuda Technologies Ltd (Company No.11472232). All rights
+          reserved.
+        </p>
+        <p>
+          If you would like to find out more about which Kuda entity you receive
+          services from, please reach out to us via the in-app chat in the Kuda
+          app. Nigerian banking services offered by Kuda Microfinance Bank
+          (RC796975) with registered address at 1-11 Commercial Avenue, Yaba,
+          Lagos, Nigeria. Kuda Microfinance Bank is licensed by the Central Bank
+          of Nigeria. Deposits are insured by the Nigerian Deposit Insurance
+          Corporation (NDIC).
+        </p>
+        <p>
+          UK services are offered by Kuda EMI Ltd (Company No. 13724208) with
+          registered address at 5 New Street Square, London, EC4A 3TW, United
+          Kingdom.
+        </p>
+        <p>
+          Canada services will be provided by Kuda Canada Technologies Limited,
+          an Ontario corporation registered under number 1000286176, with its
+          registered address located at 3080 Yonge Street, Suite 6060, Toronto,
+          Ontario M4N 3N1. Kuda Canada Technologies Limited is duly registered
+          with The Financial Transactions and Reports Analysis Centre of Canada
+          (FINTRAC) as a money service business, bearing registration number
+          M23163015.
+        </p>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
